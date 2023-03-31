@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0px;
+    padding:0px
+}
+a{
+    text-decoration: none;
+    color: rgba(36, 46, 82, 1);
+    ;
+}
+a:hover{
+    color: #999999;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button{
+    width: 135px;
+    height: 45px;
+    border-radius: 25px;
+    border-color: #8B48BF;
+    background-color: #8B48BF;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.a1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    align-items: flex-end;
+
+}
+.text1{
+    font-size: 50px;
+    color:rgba(36, 46, 82, 1);
+    font-weight: bold;
+    text-align: right;
+}
+.text2{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.a2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: #8B48BF;
+    color: white;
+    margin-top: 15vh;
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-left: 17vw;
+    width: 20vw;
+    display: inline-block;
+}
+.b2-1{
+    display: inline-block;
+    width: 38%;
+    margin-right: 8vw;
+}
+.a3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    background-color: #FAFAFA;
+    background-size: cover;
+}
+.info{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+h3{
+    display: inline-block;
+    margin-left: 25px;
+}
+.text{
+    color: #B3B2B7;
+    margin-left: 22%;
+}
+.boton{
+    display: inline-block;
+    width: 75px;
+}
+h4{
+    color: #242E53;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+@media (min-width: 391px) {
+    .hamburguesa{
+    display: none;
+    }
+}
+@media (max-width: 391px){
+    .inicio, .contact{
+        display: none;
+    }
+}
