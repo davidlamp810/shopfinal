@@ -48,7 +48,6 @@ button:hover{
 .b1{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 38%;
     align-items: flex-end;
 
@@ -176,10 +175,62 @@ h5{
 }
 footer{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
     background-color: #1E1E26;
     height: 35vh;
     padding-left: 10%;
     padding-right: 10%;
+}
+.logos{
+    width: 20%;
+}
+.logos1{
+    margin-bottom: 40%;
+}
+.logos2{
+    margin-left: 5%;
+}
+.final1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: lighter;
+    padding-right: 0%;
+}
+.final2{
+    color: #FFFFFF;
+}
+#final2{
+    margin-bottom: 17%;
+
+}
+.final2:hover{
+    color: #999999;
+}
+form{
+    width: 33%;
+    display: flex;
+}
+#text{
+    position: absolute;
+    font-size: 0.7rem;
+    text-align: right;
+    margin-top: 14%;
+    margin-left: 60%;
+}
+#correo{
+    border-radius: 25px;
+    height: 30%;
+    padding-left: 4%;
+    padding-right: 10%;
+}
+.go{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 @media (min-width: 391px) {
     .hamburguesa{
@@ -189,5 +240,32 @@ footer{
 @media (max-width: 391px){
     .inicio, .contact{
         display: none;
+    }
+    .img1{
+        width: 80vw;
+    }
+    .a1{
+        position: relative;
+        flex-direction: column;
+    }
+    .text1{
+        font-size: 2rem;
+        margin-left: -70%;
+        margin-top: 45%;
+        margin-right: -70%;
+    }
+    .text2{
+        margin-left: -70%;
+        margin-top: 45%;
+        margin-right: -70%;
+        font-size: 0.8rem;
+        margin-bottom: 25%;
+    }
+    .contact1{
+        margin-right: -67%;
+    }
+    .a2{
+        background-color: #3CDDF3;
+        flex-direction: column;
     }
 }
